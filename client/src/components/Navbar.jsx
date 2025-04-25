@@ -70,7 +70,13 @@ const Navbar = () => {
           alt="logo"
           className={`h-9 ${isScrolled && "invert opacity-80"}`}
         />
-        <h2 className="text-3xl text-white">PopIn</h2>
+        <h2
+          className={`text-3xl font-semibold transition-all duration-500 ${
+            isScrolled ? "text-gray-800" : "text-white"
+          }`}
+        >
+          PopIn
+        </h2>
       </Link>
 
       {/* Desktop Nav */}
@@ -108,7 +114,9 @@ const Navbar = () => {
         <img
           src={assets.searchIcon}
           alt="search"
-          className={`${isScrolled && "invert"} h-7 transition-all duration-500`}
+          className={`${
+            isScrolled && "invert"
+          } h-7 transition-all duration-500`}
         />
         {user ? (
           <UserButton>
