@@ -16,9 +16,9 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Environment variables - prevent secrets from being exposed on GitHub
+# Environment variables
 .env
-.env.*  # e.g., .env.local, .env.production
+.env.*
 
 # System files
 .DS_Store

@@ -27,7 +27,7 @@ const HotelCard = ({ room, idx }) => {
         </div>
         <div className="flex items-center gap-1 text-sm">
           <img src={assets.locationIcon} alt="location icon" />
-          <span>room.hotel.address</span>
+          <span>{room.hotel.address}</span>
         </div>
         <div className="flex items-center justify-between mt-4 ">
           <p>
