@@ -204,7 +204,7 @@ export const userBookingsDummyData = [
         "hotel": hotelDummyData,
         "checkInDate": "2025-04-30T00:00:00.000Z",
         "checkOutDate": "2025-05-01T00:00:00.000Z",
-        "totalPrice": 299,
+        "totalPrice": 3299,
         "guests": 1,
         "status": "pending",
         "paymentMethod": "Stripe",
@@ -220,7 +220,7 @@ export const userBookingsDummyData = [
         "hotel": hotelDummyData,
         "checkInDate": "2025-04-27T00:00:00.000Z",
         "checkOutDate": "2025-04-28T00:00:00.000Z",
-        "totalPrice": 399,
+        "totalPrice": 4499,
         "guests": 1,
         "status": "pending",
         "paymentMethod": "Pay At Hotel",
@@ -236,7 +236,7 @@ export const userBookingsDummyData = [
         "hotel": hotelDummyData,
         "checkInDate": "2025-04-11T00:00:00.000Z",
         "checkOutDate": "2025-04-12T00:00:00.000Z",
-        "totalPrice": 199,
+        "totalPrice": 5999,
         "guests": 1,
         "status": "pending",
         "paymentMethod": "Pay At Hotel",
@@ -250,6 +250,6 @@ export const userBookingsDummyData = [
 // Dashboard Dummy Data
 export const dashboardDummyData = {
     "totalBookings": 3,
-    "totalRevenue": 897,
+    "totalRevenue": 13797,
     "bookings": userBookingsDummyData
 }
