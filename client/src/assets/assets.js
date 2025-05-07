@@ -158,7 +158,7 @@ export const roomCommonData = [
 // User Dummy Data
 export const userDummyData = {
     "_id": "user_2unqyL4diJFP1E3pIBnasc7w8hP",
-    "username": "Karan Srivastava",
+    "username": "Smash",
     "email": "Karansrivastava189@gmail.com",
     "image": "https://logowik.com/content/uploads/images/313_hyattregency.jpg",
     "role": "hotelOwner",
